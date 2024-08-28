@@ -1,7 +1,7 @@
 
 package controller;
 
-public class ControllerThreadSomaMatriz extends Thread {
+public class ControllerThreadSomaMatriz implements Runnable {
     
     private int indice;
     private int[] linha;
